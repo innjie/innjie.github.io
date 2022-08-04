@@ -3,7 +3,7 @@
 blog_theme: light # Or use dark
 name: Chalk
 paginate: 25
-url: http://chalk.nielsenramon.com
+url: "https://innjie.github.io/"
 
 
 # Optional settings
@@ -75,10 +75,14 @@ exclude:
   - README.md
   - vendor/
   - yarn.lock
+# Plugins (previously gems:)
 plugins:
-  - jekyll-assets
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
 paginate_path: /posts/page/:num/
 permalink: posts/:slug
