@@ -191,7 +191,7 @@ try(ObjectInput in =
 // 아래 메소드를 구현하면 역직렬화 시 이 메소드를 사용하게 된다. 
 
 protected Object readResolve() {
-	return getInstance();
+	//return getInstance();
 }
 ```
 
