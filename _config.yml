@@ -3,7 +3,11 @@
 blog_theme: light # Or use dark
 name: innjie.github.io
 paginate: 25
+<<<<<<< HEAD
 baseurl: "https://innjie.github.io/"
+=======
+url: "https://innjie.github.io/"
+>>>>>>> 31f544affe0fa97d0cb358866872ed2766fd2bba
 
 
 # Optional settings
