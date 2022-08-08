@@ -1,7 +1,7 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: Chalk
+name: innjie.github.io
 paginate: 25
 url: "https://innjie.github.io/"
 
